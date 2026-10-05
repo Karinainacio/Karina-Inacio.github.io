@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfólio profissional de Karina Inácio — Assistente de Engenharia e estudante de Engenharia de Computação.">
+<title>Karina Inácio | Engenharia • Dados • Tecnologia</title>
+
+<!--
+  PORTFÓLIO PESSOAL — KARINA INÁCIO CORRÊA
+  Estrutura organizada por seção para facilitar manutenção e futuras atualizações.
+  Este arquivo contém somente o site (HTML + CSS + JavaScript).
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+<div id="progress"></div>
+<div id="cursor"></div>
+
+<!-- =========================================================
+     MENU PRINCIPAL — NAVEGAÇÃO DO PORTFÓLIO
+     Links: Início, Sobre mim, Experiência, Projetos, Certificados e Contato.
+     ========================================================= -->
+<nav class="nav" id="nav">
+  <a class="logo" href="#home">K<span>.</span>I</a>
+  <div class="nav-links">
+    <a href="#sobre">Sobre</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#competencias">Competências</a>
+    <a href="#certificados">Certificados</a>
+    <a href="#contato" class="nav-cta">Contato ↗</a>
+  </div>
+  <button class="menu" id="menu" aria-label="Abrir menu">☰</button>
+</nav>
+
+<main>
+
+<!--
+  CONTEÚDO PRINCIPAL DO PORTFÓLIO
+  Cada <section> possui um ID usado pelo menu para navegar até o bloco correspondente.
+  Exemplo: href="#experiencia" leva até <section id="experiencia">.
+-->
+<!-- =========================================================
+     SEÇÃO 01 — INÍCIO / APRESENTAÇÃO PROFISSIONAL
+     Apresenta nome, cargo, formação, localização, e-mail, LinkedIn e foto.
+     ========================================================= -->
+<section class="hero" id="home">
+  <div class="grid"></div>
+  <div class="container hero-grid">
+    <div class="reveal">
+      <div class="eyebrow"><span class="dot"></span> Engenharia · Dados · Tecnologia</div>
+      <h1>Karina<br><span class="outline">Inácio.</span></h1>
+      <p class="hero-description">
+        Experiência como <strong style="color:#eee">Assistente de Engenharia I</strong> em concessionária de rodovias e estudante de
+        Engenharia de Computação na Univesp. Transformando dados, processos e tecnologia em soluções
+        práticas para desafios reais.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-gold" href="#experiencia">Explorar trajetória ↓</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/karinainaciocorrea" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+
+    <div class="hero-card reveal">
+      <div class="card-top">
+        <div class="avatar photo"><img src="assets/imagens/foto-karina.jpg" alt="Foto profissional de Karina Inácio Corrêa"></div>
+        <div class="status"><i></i> Em evolução contínua</div>
+      </div>
+      <div class="card-bottom">
+        
+        <h3>Engenharia + Tecnologia</h3>
+        <p>Excel · VBA · Power BI · Dados · Automação · Infraestrutura</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 02 — SOBRE MIM
+     Resumo da atuação profissional, formação acadêmica e objetivo.
+     ========================================================= -->
+<section class="section" id="sobre">
+  <div class="container about-grid">
+    <div class="reveal"><div class="about-number">01</div></div>
+    <div class="reveal">
+      <div class="section-tag">Sobre mim</div>
+      <h2 class="section-title">Conectando <span class="gold">engenharia</span> e tecnologia.</h2>
+      <p class="section-copy">
+        Atuei como Assistente de Engenharia I em concessionária de rodovias até 01/10/2026, com experiência
+        ligada à engenharia, infraestrutura, Microsoft Excel, VBA e análise de dados. Essa trajetória
+        ampliou meu contato com soluções práticas, organização de informações e melhoria de processos.
+      </p>
+      <p class="section-copy" style="margin-top:17px">
+        Como estudante de Engenharia de Computação na Univesp, com previsão de conclusão em 2027,
+        estou em constante busca por aprendizado contínuo para aprimorar minhas competências técnicas
+        e contribuir para soluções estratégicas e práticas.
+      </p>
+      <div class="info-grid">
+        <div class="info"><small>Localização</small><strong>Araras, SP — Brasil</strong></div>
+        <div class="info"><small>Formação</small><strong>Engenharia de Computação</strong></div>
+        <div class="info"><small>Conclusão prevista</small><strong>2027</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 03 — EXPERIÊNCIA PROFISSIONAL
+     Linha do tempo: Pague Menos → Heluar → Concessionária de Rodovias do Interior Paulista S/A.
+     ========================================================= -->
+<section class="section" id="experiencia">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-tag">Experiência profissional</div>
+      <h2 class="section-title">Uma trajetória em <span class="gold">movimento.</span></h2>
+      <p class="section-copy">Experiências que aproximam engenharia, infraestrutura, análise e tecnologia.</p>
+    </div>
+
+    <!-- EXPERIÊNCIAS EM ORDEM CRONOLÓGICA -->
+    <div class="timeline">
+
+      <!-- EXPERIÊNCIA 01 — PAGUE MENOS -->
+      <div class="experience reveal">
+        <div class="exp-card">
+          <div class="exp-date">20/03/2017 — 01/09/2022</div>
+          <h3>OP Loja 1 — Repositor</h3>
+          <div class="exp-company">Pague Menos Comércio de Produtos Alimentícios Ltda.</div>
+        </div>
+      </div>
+
+      <!-- EXPERIÊNCIA 02 — HELUAR -->
+      <div class="experience reveal">
+        <div class="exp-card">
+          <div class="exp-date">01/09/2022 — 17/04/2024</div>
+          <h3>Operador de Máquinas</h3>
+          <div class="exp-company">Heluar Indústria e Comércio de Plásticos Ltda.</div>
+        </div>
+      </div>
+
+      <!-- EXPERIÊNCIA 03 — CONCESSIONÁRIA DE RODOVIAS DO INTERIOR PAULISTA -->
+      <div class="experience reveal">
+        <div class="exp-card">
+          <div class="exp-date">11/03/2026 — 01/10/2026</div>
+          <h3>Assistente de Engenharia I</h3>
+          <div class="exp-company">Concessionária de Rodovias do Interior Paulista S/A.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 04 — HABILIDADES TÉCNICAS
+     Ferramentas e conhecimentos utilizados ou desenvolvidos pela profissional.
+     ========================================================= -->
+<section class="section" id="competencias">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-tag">Competências</div>
+      <h2 class="section-title">Ferramentas para transformar <span class="gold">dados em ação.</span></h2>
+      <p class="section-copy">Uma base técnica em constante expansão, conectando desenvolvimento de software, dados, automação e engenharia.</p>
+    </div>
+
+    <!-- COMPETÊNCIAS TÉCNICAS INDIVIDUAIS -->
+    <div class="skills">
+      <div class="skill reveal"><div class="skill-num">01</div><h3>Desenvolvimento de Software</h3><p>Construção de soluções digitais</p></div>
+      <div class="skill reveal"><div class="skill-num">02</div><h3>Python</h3><p>Programação e desenvolvimento</p></div>
+      <div class="skill reveal"><div class="skill-num">03</div><h3>JavaScript</h3><p>Desenvolvimento web</p></div>
+      <div class="skill reveal"><div class="skill-num">04</div><h3>TypeScript</h3><p>Desenvolvimento com tipagem</p></div>
+      <div class="skill reveal"><div class="skill-num">05</div><h3>C#</h3><p>Programação e aplicações</p></div>
+      <div class="skill reveal"><div class="skill-num">06</div><h3>SQL</h3><p>Consultas e dados</p></div>
+      <div class="skill reveal"><div class="skill-num">07</div><h3>React</h3><p>Interfaces e aplicações web</p></div>
+      <div class="skill reveal"><div class="skill-num">08</div><h3>Node.js</h3><p>Desenvolvimento no back-end</p></div>
+      <div class="skill reveal"><div class="skill-num">09</div><h3>Banco de Dados</h3><p>Estruturação e programação</p></div>
+      <div class="skill reveal"><div class="skill-num">10</div><h3>Microsoft Excel</h3><p>Análise e organização de dados</p></div>
+      <div class="skill reveal"><div class="skill-num">11</div><h3>VBA</h3><p>Automação de tarefas</p></div>
+      <div class="skill reveal"><div class="skill-num">12</div><h3>Power BI</h3><p>Dashboards e visualização</p></div>
+      <div class="skill reveal"><div class="skill-num">13</div><h3>Power Query</h3><p>ETL e transformação</p></div>
+      <div class="skill reveal"><div class="skill-num">14</div><h3>Modelagem de Dados</h3><p>Estruturação para BI</p></div>
+      <div class="skill reveal"><div class="skill-num">15</div><h3>Front-end</h3><p>Desenvolvimento de interfaces</p></div>
+      <div class="skill reveal"><div class="skill-num">16</div><h3>Análise de Dados</h3><p>Dados → insights → decisões</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 05 — CERTIFICADOS
+     Lista de certificados e cursos complementares.
+     ========================================================= -->
+<section class="section" id="certificados">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-tag">Certificações</div>
+      <h2 class="section-title">Aprendizado <span class="gold">contínuo.</span></h2>
+      <p class="section-copy">Certificações e formações complementares que ampliam minha base técnica.</p>
+    </div>
+
+    <!-- CERTIFICADOS INDIVIDUAIS -->
+    <div class="cert-grid">
+      <div class="cert reveal"><div class="cert-icon">G</div><div><strong>Certificado Profissional de Análise de Dados do Google</strong><span>Coursera</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">A</div><div><strong>Imersão front-end</strong><span>Alura</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">V</div><div><strong>VBA: automatizando tarefas diárias sem ser Dev</strong><span>Alura</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">R</div><div><strong>Certificado de Participação — 3ª Jornada Internacional da RedAES</strong><span>Even3</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">P</div><div><strong>Power BI Desktop: construindo meu primeiro dashboard</strong><span>Alura</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">ETL</div><div><strong>Power BI Desktop: realizando ETL no Power Query</strong><span>Alura</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">X</div><div><strong>Microsoft Excel</strong><span>Simplifica.CI</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">BI</div><div><strong>Power BI: Modelagem de dados</strong><span>Alura</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">D</div><div><strong>BI com Excel: Criando um Dashboard sem complicação</strong><span>Alura</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">DB</div><div><strong>Programação de Banco de Dados</strong><span>Escola SENAI de Araras</span></div></div>
+      <div class="cert reveal"><div class="cert-icon">PC</div><div><strong>Reparos e configurações em computadores</strong><span>Sebrae — Presencial</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 06 — OBJETIVO PROFISSIONAL
+     Mensagem de posicionamento: dados, insights, inovação e projetos.
+     ========================================================= -->
+<section class="section">
+  <div class="container">
+    <div class="objective reveal">
+      <div class="section-tag">Direção profissional</div>
+      <h2>Transformar <span class="gold">dados</span> em insights valiosos e inovação.</h2>
+      <p>
+        Meu objetivo profissional é atuar em projetos desafiadores, combinando conhecimento de engenharia,
+        análise de dados e tecnologia para criar soluções estratégicas e práticas.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SEÇÃO 07 — CONTATO
+     Canais profissionais para conexão: e-mail e LinkedIn.
+     ========================================================= -->
+<section class="section" id="contato">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <div class="section-tag">Contato</div>
+      <h2 class="section-title">Vamos conectar <span class="gold">ideias?</span></h2>
+      <p class="section-copy">Disponível para conexões profissionais, projetos e oportunidades relacionadas a engenharia, tecnologia e dados.</p>
+      <div class="contact-list">
+        <a class="contact-item" href="mailto:karinainaciocorrea@gmail.com"><span>E-mail</span><span>karinainaciocorrea@gmail.com ↗</span></a>
+        <a class="contact-item" href="https://www.linkedin.com/in/karinainaciocorrea" target="_blank" rel="noopener"><span>LinkedIn</span><span>/karinainaciocorrea ↗</span></a>
+        <div class="contact-item"><span>Localização</span><span>Araras, São Paulo, Brasil</span></div>
+        <div class="contact-item"><span>Idiomas</span><span>Inglês médio · 1100–1500</span></div>
+      </div>
+    </div>
+    <div class="big-contact reveal">
+      <div class="card-index">LET'S BUILD</div>
+      <h2>Karina<br><span class="gold">Inácio.</span></h2>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- =========================================================
+     RODAPÉ — IDENTIFICAÇÃO DO PORTFÓLIO
+     ========================================================= -->
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Karina Inácio Corrêa</span>
+    <span>Engenharia · Dados · Tecnologia</span>
+  </div>
+</footer>
+
+<script src="js/navegacao.js"></script>
+<script src="js/animacoes.js"></script>
+</body>
+</html>
